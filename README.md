@@ -77,7 +77,7 @@
 <div align="center">
   <h2>🐍 My Contributions 🐍</h2>
   <br>
-  <img src="https://github.com/Purav001/Purav001/blob/output/github-contribution-grid-snake.svg" alt="snake gif" />
+  <img src="https://github.com/spurav-dev/spurav-dev/blob/output/github-contribution-grid-snake.svg" alt="snake gif" />
   <br/><br/><br/>
 </div>
 <br />
