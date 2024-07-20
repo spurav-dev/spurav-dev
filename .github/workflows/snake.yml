@@ -1,0 +1,29 @@
+name: Generate Snake
+on:
+  schedule:
+    - cron: "0 0 * * *" # Runs at midnight every day
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Generate Snake SVG
+        uses: Platane/snk@v2
+        with:
+          github_user_name: Purav001
+          outputs: dist/snake.svg
+
+      - name: Push Snake SVG to the repository
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: output
+          force: true
+          directory: dist
