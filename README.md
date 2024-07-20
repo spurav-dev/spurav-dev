@@ -77,7 +77,8 @@
 <div align="center">
   <h2>🐍 My Contributions 🐍</h2>
   <br>
-  <img src="https://github.com/spurav-dev/spurav-dev/blob/output/github-contribution-grid-snake.svg" alt="snake gif" />
+  <img alt="snake eating my contributions" src="https://raw.githubusercontent.com/spurav-dev/spurav-dev/output/github-contribution-grid-snake.svg" />
+  
   <br/><br/><br/>
 </div>
 <br />
